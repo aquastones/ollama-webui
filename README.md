@@ -9,14 +9,13 @@ A simple Ollama-based `deepseek-r1:7b` chatbot using **Node.js**, **Express**, *
 ✅ **Natural AI Conversations** using `deepseek-r1:7b`
 ✅ **Minimal UI** with auto-scrolling chat
 ✅ **Node.js Backend** with Express.js
-✅ **Error Handling & Formatting**
 
 ---
 
 ## 🚀 Getting Started
 
 ### 1️⃣ **Install Ollama & Pull the Model**
-Ensure you have ![Ollama](https://ollama.com/) installed and run the following command to download the `deepseek-r1:7b` model:
+Ensure you have [Ollama](https://ollama.com/) installed and run the following command to download the `deepseek-r1:7b` model:
 ```sh
 ollama pull deepseek-r1:7b
 ```
