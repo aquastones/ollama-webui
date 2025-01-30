@@ -2,7 +2,7 @@
 
 A simple Ollama-based `deepseek-r1:7b` chatbot using **Node.js**, **Express**, **HTML** and **CSS**
 
-![Chat UI](preview.png)  
+![Chat UI](preview.png)
 *Example chat interface*
 
 ## ✨ Features
