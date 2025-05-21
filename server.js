@@ -12,7 +12,7 @@ app.post("/chat", async (req, res) => {
     try {
         const { message } = req.body;
         const response = await axios.post("http://localhost:11434/api/generate", {
-            model: "deepseek-r1:7b",
+            model: "gemma3:4b",
             prompt: message,
             stream: false
         });
