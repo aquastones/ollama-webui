@@ -1,6 +1,6 @@
-# 📢 AI Chat with Ollama & DeepSeek-R1:7B
+# 📢 Ollama LLM Chat WebUI
 
-A simple Ollama-based `Gemma3` chatbot using **Node.js** and **Express**
+A simple Ollama-based `Gemma3` AI chat WebUI using **Node.js** and **Express**
 
 ![Chat UI](preview.png)
 *Example chat UI*
