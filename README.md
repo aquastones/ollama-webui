@@ -1,13 +1,13 @@
 # 📢 AI Chat with Ollama & DeepSeek-R1:7B
 
-A simple Ollama-based `deepseek-r1:7b` chatbot using **Node.js**, **Express**, **HTML** and **CSS**
+A simple Ollama-based `Gemma3` chatbot using **Node.js** and **Express**
 
 ![Chat UI](preview.png)
-*Example chat interface*
+*Example chat UI*
 
 ## ✨ Features
-✅ **Natural AI Conversations** using `deepseek-r1:7b`
-✅ **Minimal UI** with auto-scrolling chat
+✅ **Communication with a local LLM through a Web-UI**
+✅ **Modern Minimal Dark-mode Design**
 ✅ **Node.js Backend** with Express.js
 
 ---
@@ -15,9 +15,9 @@ A simple Ollama-based `deepseek-r1:7b` chatbot using **Node.js**, **Express**, *
 ## 🚀 Getting Started
 
 ### 1️⃣ **Install Ollama & Pull the Model**
-Ensure you have [Ollama](https://ollama.com/) installed and run the following command to download the `deepseek-r1:7b` model:
+Ensure you have [Ollama](https://ollama.com/) installed and run the following command to download the `gemma3:4b` (or any other) model:
 ```sh
-ollama pull deepseek-r1:7b
+ollama pull gemma3:4b
 ```
 
 ### 2️⃣ **Clone the Repository**
@@ -33,7 +33,7 @@ npm install
 
 ### 4️⃣ **Run the Ollama Model**
 ```sh
-ollama run deepseek-r1:7b
+ollama run gemma3:4b
 ```
 
 ### 5️⃣ **Start the Server**
@@ -51,14 +51,14 @@ http://localhost:3000
 
 ## 📜 How It Works
 1️⃣ **Frontend (HTML/CSS/JS)**
-- Simple UI with a **chatbox** and input field.
+- Minimal UI with a **chatbox** and input field.
 - Sends user messages to the backend.
 
 2️⃣ **Backend (Node.js + Express)**
 - Handles chat requests from the frontend.
-- Calls Ollama's API to generate responses..
+- Calls Ollama's API to generate responses.
 
-## 🔧 Technologies Used
+## 🔧 Frameworks Used
 - **Node.js** (Backend)
 - **Express.js** (Server)
 - **Ollama** (AI Model API)
@@ -92,4 +92,3 @@ Got an idea? Found a bug? Feel free to **fork the repo** and submit a **pull req
 ## 📬 Contact
 - **GitHub**: [aquastones](https://github.com/aquastones)
 - **Email**: aquastones@icloud.com
-
